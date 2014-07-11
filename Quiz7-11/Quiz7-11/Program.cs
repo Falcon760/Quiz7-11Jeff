@@ -34,24 +34,12 @@ namespace Quiz7_11
                    int temp = deck[i];
                    deck[i] = deck[k];
                    deck[k] = temp;
-
                }
 
            }
 
         }
 
-        class Return
-        {
-
- public static string Reverser(string x)
- {
-
-     string[] words = x.Split(' ');
-     Array.Reverse(words);
-     return string.Join(" ", words);
- }
-        }
         static void Main(string[] args)
         {
             Cards cards1 = new Cards();
@@ -85,9 +73,7 @@ namespace Quiz7_11
             Console.ReadLine();
 
             //4
-            //string s = "there is a cat";
-            //Console.WriteLine(Return.Reverser(s));
-            //Console.ReadLine();
+          
             //Q: Reverse and return a string entered by a user.
 
 
